@@ -1,0 +1,39 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <block type="s4d_login" id="PJ;faSkzsTTqTxL_cjRu" x="113" y="95">
+    <value name="TOKEN">
+      <block type="text" id="USCS[!1.!4s:DYk2i@,|">
+        <field name="TEXT">OTYyNDAxMjg4NDI1OTg4MTE2.GiRSLQ.jXKYpXRbb9SvatC7wE_fMNpfPb43ukfm4GiCrE</field>
+      </block>
+    </value>
+  </block>
+  <block type="s4d_on_message" id="/[:k~)$YuH7|~ivjz+T9" x="123" y="226">
+    <statement name="STATEMENTS">
+      <block type="controls_if" id="KVWc5h*Cv;nulOHc)n[o">
+        <value name="IF0">
+          <block type="s4d_includes" id="k|j%ph4:02F,]43KR{Mw">
+            <value name="TEXT">
+              <shadow type="text" id="#.#fxJzGq41#Y#9|4KY;">
+                <field name="TEXT">abc</field>
+              </shadow>
+              <block type="s4d_message_content" id="O$qLk_6]?tIGDL{M@c*N"></block>
+            </value>
+            <value name="INCLUDES">
+              <shadow type="text" id="k3-r@~5MbznLv.;C~bxk">
+                <field name="TEXT">cookie</field>
+              </shadow>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="s4d_add_reaction" id="j?IuIj+i$|xmZh1YfLj/">
+            <value name="REACTION">
+              <shadow type="text" id="L:U:_,{G7s3ljO??t[+j">
+                <field name="TEXT">🍪</field>
+              </shadow>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+</xml>
